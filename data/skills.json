@@ -1,0 +1,49 @@
+{
+  "products":{
+    "oracle":{
+      "1":"OEBS",
+      "2":"OAM",
+      "3":"OID",
+      "4":"BIEE",
+      "5":"ODI",
+      "6":"APEX",
+      "7":"WebLogic",
+      "8":"GlassFish",
+      "9":"ORDS"
+    },
+    "others":{
+      "1":"TomCat",
+      "2":"DataStax",
+      "3":"RightFax",
+      "4":"PostgreSql"
+    }
+  },
+  "Operation systems":{
+    "1":"RHEL",
+    "2":"CentOS",
+    "3":"SuSe",
+    "4":"Astra Linux"
+  },
+  "Programming languages":{
+    "1":"Bash",
+    "2":"SQL",
+    "3":"PL/SQL",
+    "4":"JavaScript"
+  },
+  "technologies":{
+    "1":"HTML",
+    "2":"CSS",
+    "3":"Node.Js",
+    "4":"REST"
+  },
+  "Integration":{
+    "1":"Oracle CRM and Avaya",
+    "2":"Oracle CRM and CISCO",
+    "3":"Oracle CRM and Nortel",
+    "4":"Oracle CRM and Genesys",
+    "5":"Oracle CRM and RightFax",
+    "6":"(SSO) OEBS and MSAD by OSSO",
+    "7":"(SSO) OEBS and MSAD by OAM",
+    "8":"(SSO) BIEE and MSAD by OAM"
+  }
+}
