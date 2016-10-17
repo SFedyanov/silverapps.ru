@@ -1,50 +1,41 @@
-﻿<html>
+<!DOCTYPE html>
+<html lang="ru">
 	<head>
-	<meta charset="utf-8">
-		<title>Лаборатория Ёжика</title>
-		<link rel="stylesheet" href="http://silverapps.ru/home.css">
-		<link href="http://silverapps.ru/favicon.ico" rel="icon" type="image/x-icon" />
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>silverApps</title>
+		<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/mystyle.css" rel="stylesheet">
+		<!--<link rel="stylesheet" href="css/home.css">-->
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 	</head>
 	<body>
-        <div class="title">Приложения:</div>
-		<!--<div class="login"><a href="/owncloud">вход</a></div>-->
-<!--
-		<div class="main-container">
-			<div class="application"><a href="/apex/f?p=cc">Кредитный калькулятор</a></div>
-			<div class="application"><a href="/userscripts/js/cid.user.js">Скрипт Ikariam для CID</a></div>
-        </div>
--->
-		<div class="app_box">
-			<!--<div class="app_bin">
-				<a href="/apex/f?p=cc">
-				<p class="app_region_title">Кредитный калькулятор</p>
-				<p class="app_region_text">Кредитный калькулятор для расчёта аннуитетных платежей</p>
-				</a>
-			</div>-->
-			<div class="app_bin">
-				<a href="/userscripts/js/cid.user.js">
-				<p class="app_region_title">Скрипт Ikariam для CID</p>
-				<p class="app_region_text">Скрипт Ikariam. Удаляет Ikariam Plus.</p>
-				</a>
-			</div>
-			<div class="app_bin">
-				<a href="http://node.silverapps.ru">
-				<p class="app_region_title">Node.js</p>
-				<p class="app_region_text">Node</p>
-				</a>
-			</div>
-<!--			<div class="app_bin">
-				<a href="/node2">
-				<p class="app_region_title">Node.js</p>
-				<p class="app_region_text">Node 2</p>
-				</a>
-			</div>-->
-			<div class="app_bin">
-				<a href="/mediawiki">
-				<p class="app_region_title">WiKi</p>
-				<p class="app_region_text">Заметки</p>
-				</a>
+		<div class="container top_margin">
+			<div class="row">
+				<div class="col-md-4">
+					<a class="btn btn-default btn-lg btn-block" href="/mediawiki" role="button">
+						<p class="app_region_title">WiKi</p>
+						<p class="app_region_text">Заметки</p>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn-default btn-lg btn-block" href="/owncloud" role="button">
+						<p class="app_region_title">OwnCloud</p>
+						<p class="app_region_text">Облако</p>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn-default btn-lg btn-block" href="/skills" role="button">
+						<p class="app_region_title">Skills</p>
+						<p class="app_region_text">Навыки</p>
+					</a>
+				</div>
 			</div>
 		</div>
+		<!--JS-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
